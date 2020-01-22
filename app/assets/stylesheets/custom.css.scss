@@ -1,13 +1,11 @@
 @import 'bootstrap/dist/css/bootstrap';
 
-/*
-.navbar-brand {
-    font-size: 3rem;
-}
-*/
+
+
+
 
 .navbar {
-	background-color: #FDF6EA !important;
+	background-color: #e6e6e6 !important;
 }
 
 h1 {
@@ -15,26 +13,27 @@ h1 {
 }
 
 .jumbotron {
-	background-image: asset-url('image.jpg');
+	background-image: asset-url('image5.jpg');
 	text-align: center;
 	background-size: cover;
 	color: #fff;
 	font-family: 'Helvetica Neue' !important;
 	font-stretch: expanded;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	margin-left: 15px;
-	margin-right: 15px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-left: 25px;
+	margin-right: 25px;
 	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
 
-	h2 {
-		font-size: 35px !important;
+	h1 {
+		font-size: 80px !important;
 		.lead {
 			font-family: 'Helvetica Neue' !important;
-			font-size: 30px !important;
+			font-size: 40px !important;
 		}
 	}
 }
+
 
 .search-area {
 	padding-top: 50px;

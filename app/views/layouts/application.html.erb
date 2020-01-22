@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FinanceTracker6</title>
+  <title>FinanceTracker</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
@@ -10,15 +10,11 @@
 </head>
 
 <body>
-  <%= render 'layouts/navigation' %>
+  <%= render 'layouts/navigation' %> 
   <br><br><br>
   <div class="container">
     <%= render 'layouts/messages' %>
     <%= yield %>
-    <br>
-    <footer>
-      <p>&copy; Company 2020</p> 
-    </footer>
   </div>
 </body>
 </html>
